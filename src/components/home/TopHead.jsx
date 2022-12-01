@@ -1,8 +1,7 @@
 import * as React from 'react'
 import Navigate from '../common/Navigate'
 import { Button, CssVarsProvider } from '@mui/joy';
-import { Stack,Grid, Typography, Container } from '@mui/material'
-import Spline from '@splinetool/react-spline';
+import { Stack,Grid, Typography, Container } from '@mui/material';
 import { PersonOutlineRounded } from '@mui/icons-material';
 
 class TopHead extends React.Component {
@@ -62,10 +61,7 @@ class TopHead extends React.Component {
                     </CssVarsProvider>
                   
               </Grid>
-              <Grid item lg={5} sx={{zIndex:'0'}}>
-                <Spline scene="https://prod.spline.design/ri2oQrYKH2Ve9UQU/scene.splinecode" />
-              </Grid>
-              
+ 
             </Grid>
           </Stack>
         </Container>

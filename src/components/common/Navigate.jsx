@@ -10,7 +10,7 @@ export class Navigate extends React.Component {
         },
         {
             label:'Services',
-            Children:['Web Designing','Web Applications','Logo Designing','3D Icons & Illustrations','Mobile Applications','Progressive Web Applications']
+            Children:['Web Designing','Web Applications','Logo Design','UI/UX Design','Banner & Creatives Design','Mobile Applications','Progressive Web Applications']
         },
         {
             label:'Solutions',
